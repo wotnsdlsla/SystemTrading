@@ -1,0 +1,37 @@
+설치 소개
+1.Anaconda Install(32Bit)
+    URL : https://www.anaconda.com/distribution
+
+2.가상환경 구성(32Bit)
+    Anaconda prompt 실행후
+    conda create -n system_trading_py38_32 python=3.8
+
+3.PyCharm Install
+    https://www.jetbrains.com/pycharm
+    프로젝스 설정 ->Previously configured interpreter 에서 위에서 설치한 파이썬 선택
+
+4.키움증권 계좌 개설
+    핸드폰 어플: 키움증권 계좌개설
+    증권 인증서: https://www.kiwoom.com -> 인증센터 -> 인증서 발급/재발급
+
+5.Kiwoom Open API
+    https://www.kiwoom.com 하단의 Open API 선택
+    1단계, 2단계, 3단계(KOA Studio)
+
+6.Python pip 설치 목록
+    Anaconda prompt 실행후 -> conda env list 생성한 리스트 확인후 activate할 패키지 확인
+    재순 - ※conda activate system_trading_py_38_32
+
+PyQt5 - OCX로 사용되는 API를 사용하기 위해 필요한 클래스(QAxWidget)가 PyQt5에 포함되어 있다.
+    ※pip install pyqt5
+
+pandas - Pandas는 파이썬에서 사용하는 데이터분석 라이브러리로, 행과 열로 이루어진 데이터 객체를 만들어 다룰 수 있게 되며 보다 안정적으로 대용량의 데이터들을 처리하는데 매우 편리한 도구 입니다.
+    ※pip install pandas
+DataFrame:https://bit.ly/3hev6CU
+
+크롤링 - 웹페이지에서 필요한 데이터를 추출하는 작업 / TML정보로 부터 원하는 데이터를 가져오기 쉽게, 비슷한 분류의 데이터별로 나누어주는(parsing)
+BeautifulSoup - 파이썬에서 크롤링을 위한 라이브러리
+    ※pip install bs4 lxml openpyxl numpy
+
+7.DB 설치 SQLite
+    https://sqlitebrowser.org 접속후 다운로드
